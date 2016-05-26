@@ -1,0 +1,16 @@
+{
+  "name": "Fb Post Deletor",
+  "description": "Delete all your Facebook posts",
+  "version": "1.0",
+  "permissions": [
+    "https://www.facebook.com/*"
+  ],
+  "background": {
+    "scripts": ["main.js", "deletor.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Delete posts"
+  },
+  "manifest_version": 2
+}
